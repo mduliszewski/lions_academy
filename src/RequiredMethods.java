@@ -15,4 +15,18 @@ public class RequiredMethods {
         }
         return nrOfStringsOfGivenLength;
     }
+
+    /**
+     * For a given array of strings, returns new array with the first N strings (N is in range 1..length)
+     *
+     * @param words String[] Array containing strings
+     * @param n int The number of first strings in new array
+     */
+    public String[] wordsFront(String[] words, int n){
+        String[] chosenWords = new String[n];
+        for (int i = 0; i<n; i++){
+            chosenWords[i] = words[i];
+        }
+        return chosenWords;
+    }
 }
