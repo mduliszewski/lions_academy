@@ -10,5 +10,10 @@ public class Main {
         for (String s: returnedWords){
             System.out.println(s);
         }
+
+        System.out.println(methods.greenTicket(1,1,1));
+        System.out.println(methods.greenTicket(1,1,2));
+        System.out.println(methods.greenTicket(1,2,1));
+        System.out.println(methods.greenTicket(2,1,3));
     }
 }
